@@ -1,21 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Toasty Plugin</title>
-	<link rel="stylesheet" href="css/toasty.css">
+	<title>Toasty Plugin - Example</title>
+	<link rel="stylesheet" href="css/toasty.min.css">
 	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="js/toasty.js"></script>
+	<script src="js/toasty.min.js"></script>
 	<script>
 	$(function() {
 		$("body").toasty({
-			type 		: 'word', // word or default
+			event 		: 'type',
  			typeWord 	: 'hello'
 		});
 	});
 	</script>
 </head>
-<body>
-	<button>Oi</button>
-</body>
+<body></body>
 </html>

@@ -4,10 +4,10 @@
 	
 	var defaults = {
 		sound 		: true,
- 		sound 		: 'toasty.mp3',
- 		image 		: 'toasty.png',
- 		type 		: 'default', // word or default
- 		typeWord 	: 'toasty'
+ 		sound 		: 'assets/toasty.mp3',
+ 		image 		: 'assets/toasty.png',
+ 		event 		: 'default', // word or default
+ 		typeWord 	: ''
 	};
 
 	var commands = {
@@ -38,7 +38,7 @@
 		if(toasty.settings.sound)
 			$("body").append('<audio id="toasty-audio"><source src="'+ toasty.settings.sound +'" type="audio/mpeg"></source></audio>');
 
-		if(toasty.settings.type == 'word') {
+		if(toasty.settings.event == 'type' && toasty.settings.typeWord != '') {
 			var typingTimer;
 			var doneTypingInterval = 800;
 			var typedWord = '';
