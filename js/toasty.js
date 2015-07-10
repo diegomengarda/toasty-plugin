@@ -40,7 +40,7 @@
 
 		if(toasty.settings.event == 'type' && toasty.settings.typeWord != '') {
 			var typingTimer;
-			var doneTypingInterval = 800;
+			var doneTypingInterval = 1500;
 			var typedWord = '';
 			$('body').on('keyup', function(){
 			    clearTimeout(typingTimer);
