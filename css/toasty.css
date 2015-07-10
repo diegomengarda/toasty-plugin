@@ -3,6 +3,7 @@
 	-moz-animation: showSurprise 1s;
 	-o-animation: showSurprise 1s;
 	animation: showSurprise 1s;
+	z-index: 9999;
 }
 @-webkit-keyframes showSurprise {
 	0% {right: -200px;}
