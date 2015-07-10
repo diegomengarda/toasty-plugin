@@ -1,0 +1,30 @@
+.show-surprise{
+	-webkit-animation: showSurprise 1s;
+	-moz-animation: showSurprise 1s;
+	-o-animation: showSurprise 1s;
+	animation: showSurprise 1s;
+}
+@-webkit-keyframes showSurprise {
+	0% {right: -200px;}
+	40% {right: 0;}
+	60% {right: 0;}
+	100% {right: -200px;}
+}
+@-moz-keyframes showSurprise {
+	0% {right: -200px;}
+	40% {right: 0;}
+	60% {right: 0;}
+	100% {right: -200px;}
+}
+@-o-keyframes showSurprise {
+	0% {right: -200px;}
+	40% {right: 0;}
+	60% {right: 0;}
+	100% {right: -200px;}
+}
+@keyframes showSurprise {
+	0% {right: -200px;}
+	40% {right: 0;}
+	60% {right: 0;}
+	100% {right: -200px;}
+}
