@@ -1,13 +1,13 @@
 #Toasty Plugin
-##A jQuery plguin to show easter egg like Mortal Kombat Toasty
+##A jQuery plugin to show easter egg like Mortal Kombat Toasty
 
-###Autor
+###Author
 Diego Mengarda / <a href="http://www.twitter.com/diegomengarda">@diegomengarda</a>
 
-###Licença
-Lançado sob a licença MIT - http://opensource.org/licenses/MIT
+###License
+MIT - http://opensource.org/licenses/MIT
 
-##Instalação
+##Install
 
 ###Include files
 
@@ -35,7 +35,7 @@ $(function(){
 ```html
 <script>
 $(function(){
-	$('button').click({
+	$('button').click(function(){
 		$('body').toasty('show');
 	});
 });
